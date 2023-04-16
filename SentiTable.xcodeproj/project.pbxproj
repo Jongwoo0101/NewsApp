@@ -14,6 +14,8 @@
 		F057B46D29E4E81A0075F386 /* SentiTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F057B46B29E4E81A0075F386 /* SentiTable.xcdatamodeld */; };
 		F057B46F29E4E81B0075F386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F057B46E29E4E81B0075F386 /* Assets.xcassets */; };
 		F057B47229E4E81B0075F386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F057B47029E4E81B0075F386 /* LaunchScreen.storyboard */; };
+		F057B47A29E509280075F386 /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F057B47929E509280075F386 /* Type1.swift */; };
+		F083EE6429E59D9A00DA4082 /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083EE6329E59D9A00DA4082 /* NewsDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F057B46E29E4E81B0075F386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F057B47129E4E81B0075F386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F057B47329E4E81B0075F386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F057B47929E509280075F386 /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
+		F083EE6329E59D9A00DA4082 /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,7 @@
 		F057B45629E4E81A0075F386 = {
 			isa = PBXGroup;
 			children = (
-				F057B46129E4E81A0075F386 /* SentiTable */,
+				F057B46129E4E81A0075F386 /* NewsApp */,
 				F057B46029E4E81A0075F386 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F057B46129E4E81A0075F386 /* SentiTable */ = {
+		F057B46129E4E81A0075F386 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
 				F057B46229E4E81A0075F386 /* AppDelegate.swift */,
@@ -66,8 +70,10 @@
 				F057B47029E4E81B0075F386 /* LaunchScreen.storyboard */,
 				F057B47329E4E81B0075F386 /* Info.plist */,
 				F057B46B29E4E81A0075F386 /* SentiTable.xcdatamodeld */,
+				F057B47929E509280075F386 /* Type1.swift */,
+				F083EE6329E59D9A00DA4082 /* NewsDetailController.swift */,
 			);
-			path = SentiTable;
+			path = NewsApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +150,9 @@
 				F057B46729E4E81A0075F386 /* ViewController.swift in Sources */,
 				F057B46329E4E81A0075F386 /* AppDelegate.swift in Sources */,
 				F057B46D29E4E81A0075F386 /* SentiTable.xcdatamodeld in Sources */,
+				F083EE6429E59D9A00DA4082 /* NewsDetailController.swift in Sources */,
 				F057B46529E4E81A0075F386 /* SceneDelegate.swift in Sources */,
+				F057B47A29E509280075F386 /* Type1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK4FJ4RF74;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SentiTable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK4FJ4RF74;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SentiTable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
